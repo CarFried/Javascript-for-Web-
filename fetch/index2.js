@@ -31,12 +31,12 @@ ${beer.tagline}
 </div>
 </div>`
 
-const createHtmlElement = htmlString => {
+// const createHtmlElement = htmlString => {
 
-  const div = document.createElement("div");
-  div.innerHTML = htmlString; 
-  return div.firstChild(Child);
-}
+//   const div = document.createElement("div");
+//   div.innerHTML = htmlString; 
+//   return div.firstChild(Child);
+// }
 
   // const randomBeer()
 //     const newBeer = randomBeer();

@@ -1,0 +1,20 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAHCjiEX-vvEU74_dcQdpwDpLBTgeX05yk",
+    authDomain: "reiseblog-4fd93.firebaseapp.com",
+    databaseURL: "https://reiseblog-4fd93.firebaseio.com",
+    projectId: "reiseblog-4fd93",
+    storageBucket: "reiseblog-4fd93.appspot.com",
+    messagingSenderId: "940845388157",
+    appId: "1:940845388157:web:8a07e54de7ff52489b7c14"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
