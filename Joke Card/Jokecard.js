@@ -1,14 +1,16 @@
 //fetch Joke API &&Reload Funktion
 
 
-
+const content = document.getElementById("content")
 
 const reload = () => { 
     fetch("https://official-joke-api.appspot.com/random_joke")
     .then(res => res.json())
     .then(json => {
+      console.log("reload")
         const joke = json;
         const html= newBlogPost(joke)
+        console.log(html)
         content.innerHTML= html;
         
 
@@ -42,7 +44,7 @@ const reload = () => {
         </div>
       </div>
       <div class ="text-right">
-        <button ${onclick="reload()"} class="bg-blue-900 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded-full">
+        <button onclick="reload()" class="bg-blue-900 hover:bg-blue-300 text-white font-bold py-2 px-4 rounded-full">
             Reload
           </button>
       </div>
